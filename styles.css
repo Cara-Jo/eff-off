@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+html{
+  height: 100%;
+}
+body {
+    min-height: 100%;
+    font-family: 'Lily Script One';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(270deg, #da5fa3, #e888b8, #db334c, #db334c, #ed5665, #f26d53, #ffcf58, #a3cf65, #6cb144, #5cc1a6, #81cad1, #4dc1eb, #6796ce, #8067ac, #a391c5);
+    background-size: 800% 800%;
+    -webkit-animation: FuckOffPretty 30s ease infinite;
+    -moz-animation: FuckOffPretty 30s ease infinite;
+    animation: FuckOffPretty 30s ease infinite;
+}
+
+@-webkit-keyframes FuckOffPretty {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes FuckOffPretty {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes FuckOffPretty { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+    color: white; font-size: 10em; text-align: center; font-weight: normal;
+}
